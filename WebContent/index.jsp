@@ -10,7 +10,7 @@
 this is main Page
 
 <p>
-<a href="bbs.do">컨트롤러 링크</a>
+<a href="bbs.do">컨트롤러 링크2222</a>
 </p>
 
 </body>
