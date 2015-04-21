@@ -1,4 +1,4 @@
-package com.darkgoon83;
+package com.darkgoon83.beans.bbs;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
