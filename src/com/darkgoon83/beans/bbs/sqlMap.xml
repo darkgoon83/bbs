@@ -23,19 +23,10 @@
 			<include refid="bbsField"/>
 			FROM
 				DK_BBS
-			WHERE (MANAGER_SEQ = #manager_seq#
-				  $join_manager_seq$)
-			AND	  DEL_DT IS NULL
-			<isNotEmpty property="category1" prepend="AND">
-			CATEGORY1 = #category1#
-			</isNotEmpty>
-			<isNotEmpty property="where" prepend="AND">
-			$where$
-			</isNotEmpty>
-			ORDER BY
-	        	GROUP_SEQ DESC ,
-	        	BOARD_SEQ ASC
-	    )
-	) WHERE RN &lt;= #rowSize#  ORDER BY RN ASC
+			
+			ORDER BY IDX DESC
+	        
+	    ) WHERE RN &lt;= #endNum#
+	) WHERE RN &gt;= #startNum#
 	</select>
 </sqlMap>
