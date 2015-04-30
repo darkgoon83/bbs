@@ -36,7 +36,7 @@ public class PageNavigation {
 		this.curPageNo = curPageNo;
 		this.req = request;
 		
-		this.
+		
 	}
 	
 	
