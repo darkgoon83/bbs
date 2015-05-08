@@ -51,9 +51,8 @@
 		</div>
 	
 	</div>
-
 </div>
-
+<tiles:insertAttribute name="content"/>
 
 </body>
 </html>

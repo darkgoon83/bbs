@@ -7,11 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller 
 public class bbsController {
 	
-	@RequestMapping("/bbs")
+	@RequestMapping("/bbs/list")
 	
 	public ModelAndView bbs() {
 		String sMessage = "스프링 프레임워크 테스트";
-		return new ModelAndView("bbs", "message", sMessage);
+		return new ModelAndView("bbs/list", "message", sMessage);
 	}
 
 }
